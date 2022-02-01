@@ -29,7 +29,7 @@ def count():
     curr = 0
     while curr <= num:
         print(curr, '!')
-        curr = curr + 1
+        curr += 1
 
 
 def test():
@@ -46,8 +46,7 @@ def test():
         print("Please, try again.")
     print('Congratulations, have a nice day!')
 
-def end():
-  print('Congratulations, have a nice day!')
+  
 
 
 greet('kent', '2022')  
@@ -55,5 +54,5 @@ remind_name()
 guess_age()
 count()
 # ...
-end()
+
 test()
